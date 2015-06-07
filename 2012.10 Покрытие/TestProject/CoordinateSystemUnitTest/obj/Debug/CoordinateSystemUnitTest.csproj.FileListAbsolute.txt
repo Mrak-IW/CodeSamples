@@ -1,0 +1,26 @@
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.pdb
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.dll
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.pdb
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.exe
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.pdb
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.dll
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem_Accessor.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem_Accessor.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystemUnitTest.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem_Accessor.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem_Accessor.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.dll
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\obj\Debug\CoordinateSystemUnitTest.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\CoordinateSystemUnitTest\bin\Debug\CoordinateSystem.xml

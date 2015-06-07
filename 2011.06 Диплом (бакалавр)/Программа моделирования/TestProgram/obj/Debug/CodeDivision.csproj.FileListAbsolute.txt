@@ -1,0 +1,24 @@
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.pdb
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\bin\Debug\TestProgram.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\bin\Debug\TestProgram.pdb
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.Form1.resources
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.Properties.Resources.resources
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.exe
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.pdb
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\bin\Debug\TestProgram.exe
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\bin\Debug\TestProgram.pdb
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.Form1.resources
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.Properties.Resources.resources
+D:\ARCHIVE\Институт\Лабы\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\CodeDivision.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\CodeDivision.Form1.resources
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\CodeDivision.Properties.Resources.resources
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\CodeDivision.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\bin\Debug\CodeDivision.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\bin\Debug\CodeDivision.pdb
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\CodeDivision.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение (Переработанная)\TestProgram\obj\Debug\CodeDivision.pdb

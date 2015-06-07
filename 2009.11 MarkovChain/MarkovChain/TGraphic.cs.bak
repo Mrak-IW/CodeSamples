@@ -1,0 +1,297 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Drawing;
+
+namespace NSGraphic
+{
+    public class TGraphic
+    {
+		/// <summary>
+		/// Строка формата для отображения подписей по оси X
+		/// </summary>
+		public string formatX = "F0";
+		/// <summary>
+		/// Строка формата для отображения подписей по оси Y
+		/// </summary>
+		public string formatY = "F3";
+        /// <summary>
+        /// Размер графика по оси Х
+        /// </summary>
+        public int sizeX = 150;
+		/// <summary>
+		/// Количество подписей по оси Х
+		/// </summary>
+		public int cntX = 10;
+		/// <summary>
+		/// Длина выступающей "стрелки" на оси 0X (arrow Len)
+		/// </summary>
+		public int aLenX = 25;
+        /// <summary>
+		/// Размер графика по оси Y
+        /// </summary>
+        public int sizeY = 150;
+		/// <summary>
+		/// Количество подписей по оси Y
+		/// </summary>
+		public int cntY = 10;
+		/// <summary>
+		/// Длина выступающей "стрелки" на оси 0Y (arrow Len)
+		/// </summary>
+		public int aLenY = 25;
+        /// <summary>
+        /// Точка на форме, где будет располагаться начало координат
+        /// </summary>
+        public Point zero = new Point(35,250);
+        /// <summary>
+        /// Массив значений по оси Х
+        /// </summary>
+		public double[] arrX = { 0, 5, 10, 15, 20 };
+        /// <summary>
+        /// Массив значений по оси Y
+        /// </summary>
+		public double[] arrY = { 0, 10, 5, 15, 7 };
+		/// <summary>
+		/// Верхняя граница отображаемых на графике значений по оси X
+		/// </summary>
+		public double MaxX
+		{
+			set
+			{
+				maxX = value;
+			}
+			get
+			{
+				int i;
+				if (autoScaleX && arrX.Length > 0)
+				{
+					//Находим максимальное значение по оси 0X
+					maxX = arrX[0];
+					for (i = 0; i < arrX.Length; i++)
+					{
+						if (arrX[i] > maxX) maxX = arrX[i];
+					}
+				}
+				return maxX;
+			}
+		}
+		private double maxX = 0;
+		/// <summary>
+		/// Верхняя граница отображаемых на графике значений по оси Y
+		/// </summary>
+		public double MaxY
+		{
+			set
+			{
+				maxY = value;
+			}
+			get
+			{
+				int i;
+				if (autoScaleY && arrY.Length > 0)
+				{
+					//Находим максимальное значение по оси 0X
+					maxY = arrY[0];
+					for (i = 0; i < arrY.Length; i++)
+					{
+						if (arrY[i] > maxY) maxY = arrY[i];
+					}
+				}
+				return maxY;
+			}
+		}
+		private double maxY = 0;
+		/// <summary>
+		/// Автоматическое определение верхней границы значений по оси X
+		/// </summary>
+		public bool autoScaleX = true;
+		/// <summary>
+		/// Автоматическое определение верхней границы значений по оси Y
+		/// </summary>
+		public bool autoScaleY = true;
+
+        /// <summary>
+		/// Выводит систему координат
+        /// </summary>
+        /// <param name="g">Объект графики</param>
+        /// <param name="axisP">Перо, которым рисуем оси и насечки</param>
+        /// <param name="subdcrB">Кисть, которой пишем подписи к осям</param>
+		/// <param name="linesH">Перо, которым рисуем горизонтальные линии линии сетки. Если NULL, то эти линии не рисуем.</param>
+		/// <param name="linesV">Перо, которым рисуем вертикальные линии линии сетки. Если NULL, то эти линии не рисуем.</param>
+		public void DrawAxis(Graphics g, Pen axisP, Brush subdcrB, Pen linesH, Pen linesV)
+		{
+			
+			int i, x, y;
+			Point buf;
+			//double maxX, maxY;
+
+			#region Отрисовка осей
+			//Получаем точку, куда упирается ось Y
+			buf = RotateSK(0, sizeY);
+			//Рисуем ось Y
+			g.DrawLine(axisP, zero, buf);
+			//Получаем точку, куда упирается ось X
+			buf = RotateSK(sizeX, 0);
+			//Рисуем ось X
+			g.DrawLine(axisP, zero, buf);
+			#endregion
+
+			//Защита от дурака
+			if (arrX.Length == 0 || arrY.Length == 0)
+				throw new Exception("Попытка вывести график, при отсутствии координат точек");
+
+			//Отрисовка подписей по оси 0Y и горизонтальных линий сетки
+			x = 0;
+			for (i = 0; i < cntY; i++)
+			{
+				y = Convert.ToInt32(i * (sizeY - aLenY) / (cntY-1));
+				buf = RotateSK(x, y);
+				//Отрисовка горизонтальных линий
+				if (linesH != null && i>0)
+				{
+					g.DrawLine(linesH, buf.X, buf.Y, buf.X + sizeX, buf.Y);
+				}
+				//Отрисовка насечек
+				g.DrawLine(axisP, buf.X - 3, buf.Y, buf.X + 3, buf.Y);
+				g.DrawString((i * this.MaxY / (cntY - 1)).ToString(formatY), SystemFonts.SmallCaptionFont, Brushes.Black, buf.X - (i * this.MaxY / (cntY - 1)).ToString(formatY).Length * SystemFonts.SmallCaptionFont.SizeInPoints - 5, buf.Y - SystemFonts.SmallCaptionFont.Height / 2);
+			}
+
+			//Отрисовка подписей по оси 0X и вертикальных линий сетки
+			y = 0;
+			for (i = 0; i < cntX; i++)
+			{
+				x = Convert.ToInt32(i * (sizeX - aLenX) / (cntX-1));
+				buf = RotateSK(x, y);
+				//Отрисовка горизонтальных линий
+				if (linesH != null && i > 0)
+				{
+					g.DrawLine(linesV, buf.X, buf.Y, buf.X, buf.Y - sizeY);
+				}
+				g.DrawLine(Pens.Black, buf.X, buf.Y - 3, buf.X, buf.Y + 3);
+				g.DrawString((i * this.MaxX / (cntX - 1)).ToString(formatX), SystemFonts.SmallCaptionFont, subdcrB, buf.X - (i * MaxX / (cntX - 1)).ToString(formatX).Length * SystemFonts.SmallCaptionFont.SizeInPoints / 2, buf.Y + SystemFonts.SmallCaptionFont.Height / 2);
+			}
+        }
+
+		/// <summary>
+		/// Рисуем стандартный график
+		/// </summary>
+		/// <param name="g">Объект графики, на котором рисуем</param>
+		/// <param name="p">Перо, которым рисуем линию. Если NULL - линию не рисуем</param>
+		/// <param name="b">Кисть, которой рисуем точки. Если NULL - точки не рисуем</param>
+		public void DrawPolyline(Graphics g, Pen p, Brush b)
+		{
+			//DrawAxis(g);
+
+			Point[] points = new Point[(arrX.Length < arrY.Length ? arrX.Length : arrY.Length)];
+			//Отрисовка линий
+			if (p != null)
+			{
+				for (int i = 0; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+				{
+					points[i] = SwitchSK(arrX[i], arrY[i]);
+					//g.DrawString(i.ToString(),SystemFonts.CaptionFont,Brushes.Black,points[i]);
+				}
+				g.DrawLines(p, points);
+			}
+			//Отрисовка точек
+			if (b != null)
+			{
+				for (int i = 0; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+				{
+					g.FillEllipse(b, points[i].X - 5, points[i].Y - 5, 10, 10);
+				}
+			}
+		}
+
+
+		/// <summary>
+		/// Рисуем гистограмму
+		/// </summary>
+		/// <param name="g"></param>
+		public void DrawGist(Graphics g, Pen p, Brush b)
+		{
+			//DrawAxis(g);
+
+			Point[] points = new Point[(arrX.Length < arrY.Length ? arrX.Length : arrY.Length)];
+			//Отрисовка линий
+			for (int i = 0; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+			{
+				points[i] = SwitchSK(arrX[i], arrY[i]);
+				//g.DrawString(i.ToString(),SystemFonts.CaptionFont,Brushes.Black,points[i]);
+			}
+			//Отрисовка столбиков
+			int w = (sizeX - aLenX) / arrX.Length;
+			Point buf = SwitchSK(0,0);
+			for (int i = 0; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+			{
+				g.FillRectangle(b, points[i].X - w / 2, points[i].Y, w, buf.Y - points[i].Y);
+				g.DrawRectangle(p, points[i].X - w/2, points[i].Y, w, buf.Y - points[i].Y);
+			}
+
+		}
+
+		/// <summary>
+		/// Рисуем эпюры
+		/// </summary>
+		/// <param name="g"></param>
+		public void DrawEpur(Graphics g, Pen p)
+		{
+			int i;
+
+			//DrawAxis(g);
+
+			Point[] points = new Point[(arrX.Length < arrY.Length ? arrX.Length : arrY.Length)];
+			//Вычисление координат на объекте графики
+			for (i = 0; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+			{
+				points[i] = SwitchSK(arrX[i], arrY[i]);
+				//g.DrawString(i.ToString(),SystemFonts.CaptionFont,Brushes.Black,points[i]);
+			}
+			//Отрисовка ступенек
+			Point buf = SwitchSK(0, 0);
+			for (i = 1; i < (arrX.Length < arrY.Length ? arrX.Length : arrY.Length); i++)
+			{
+				g.DrawLine(p, points[i - 1].X, points[i - 1].Y,points[i].X, points[i - 1].Y);
+				g.DrawLine(p, points[i].X, points[i - 1].Y, points[i].X, points[i].Y);
+			}
+
+			buf = RotateSK(sizeX, 0);
+			g.DrawLine(p, points[i - 1].X, points[i - 1].Y, buf.X, points[i - 1].Y);
+
+		}
+
+		/// <summary>
+		/// Преобразует координаты точки на графике в координаты точки на объекте
+		/// </summary>
+		/// <param name="pt">Точка на графике</param>
+        private Point RotateSK(Point pt)
+        {
+			Point res = new Point(pt.X + zero.X, zero.Y - pt.Y);
+			return res;
+        }
+
+		/// <summary>
+		/// Преобразует координаты точки на графике в координаты точки на объекте
+		/// </summary>
+		/// <param name="pt">Точка на графике</param>
+		private Point RotateSK(int X, int Y)
+		{
+			Point res = new Point(X + zero.X, zero.Y - Y);
+			return res;
+		}
+		/// <summary>
+		/// Преобразует координаты точки на графике в координаты точки на объекте
+		/// </summary>
+		/// <param name="X">Координата по оси 0X</param>
+		/// <param name="Y">Координата по оси 0Y</param>
+		private Point SwitchSK(double X, double Y)
+		{
+			Point buf = new Point();
+			buf.X = Convert.ToInt32((sizeX - aLenX) * X / MaxX);
+			buf.Y = Convert.ToInt32((sizeY - aLenY) * Y / MaxY);
+			buf = RotateSK(buf);
+
+			return buf;
+		}
+    }
+}

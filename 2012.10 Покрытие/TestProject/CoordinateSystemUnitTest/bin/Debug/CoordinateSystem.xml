@@ -1,0 +1,1240 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoordinateSystem</name>
+    </assembly>
+    <members>
+        <member name="T:CoordinateSystem.TSegment">
+            <summary>
+            Отрезок, заданный в виде начальной и конечной точек
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.iFigure">
+            <summary>
+            Интерфейс некоторой абстрактной фигуры, которую можно отобразить в системе координат
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.iFigure.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="coordinates">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.iFigure.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+            <returns>true, если точка принадлежит линиям фигуры. В противном случае - false</returns>
+        </member>
+        <member name="M:CoordinateSystem.iFigure.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.iFigure.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="P:CoordinateSystem.iFigure.Min">
+            <summary>
+            Минимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.iFigure.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.iFigure.Pen">
+            <summary>
+            Перо для отрисовки линий фигуры
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TSegment.begin">
+            <summary>
+            Начало отрезка
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TSegment.end">
+            <summary>
+            Конец отрезка
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TSegment.max">
+            <summary>
+            Максимальные значения переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TSegment.min">
+            <summary>
+            Минимальные значения переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TSegment.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.#ctor(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            Создать отрезок, соединяющий две точки. Концы отрезка присваиваются как ссылки,
+            а не создаются заново.
+            </summary>
+            <param name="begin">Начало отрезка</param>
+            <param name="end">Конец отрезка</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Создать отрезок, соединяющий две точки.
+            </summary>
+            <param name="beginX">Координата X начала отрезка</param>
+            <param name="beginY">Координата Y начала отрезка</param>
+            <param name="endX">Координата X конца отрезка</param>
+            <param name="endY">Координата Y конца отрезка</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="coordinates">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TSegment.ToString">
+            <summary>
+            Представить фигуру в виде текстового описания
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.Length">
+            <summary>
+            Получить длину отрезка
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.PointBegin">
+            <summary>
+            Начало отрезка
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.PointEnd">
+            <summary>
+            Конец отрезка
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.Min">
+            <summary>
+            Минимальные значения переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.Max">
+            <summary>
+            Максимальные значения переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TSegment.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TCircle">
+            <summary>
+            Окружность, заданная координатами центра и радиусом.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.iClosedFigure">
+            <summary>
+            Интерфейс фигуры, которая представляет собой замкнутый контур
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.iClosedFigure.PointIsInside(System.Drawing.PointF)">
+            <summary>
+            Определяет, находится ли точка внутри данной фигуры
+            </summary>
+            <param name="point">Проверяемая точка</param>
+        </member>
+        <member name="P:CoordinateSystem.iClosedFigure.Brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCircle.brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCircle.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCircle.center">
+            <summary>
+            Центр окружности
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCircle.radius">
+            <summary>
+            Радиус окружности
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.#ctor(System.Drawing.PointF,System.Single)">
+            <summary>
+            Создать окружность заданного радиуса с центром в заданной точке
+            </summary>
+            <param name="center">Центр окружности</param>
+            <param name="radius">Радиус окружности</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.PointIsInside(System.Drawing.PointF)">
+            <summary>
+            Определяет, находится ли точка внутри данной фигуры
+            </summary>
+            <param name="point">Точка в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="point">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры.
+            Если значение отрицательно, значит точка находится внутри.
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.ToString">
+            <summary>
+            Представить фигуру в виде текстового описания
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TCircle.Clone">
+            <summary>
+            Получить точную копию объекта.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Min">
+            <summary>
+            Минимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Center">
+            <summary>
+            Центр фигуры
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCircle.Radius">
+            <summary>
+            Радиус окружности
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.iFunction">
+            <summary>
+            Класс представляет собой график некоторой функции.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.iFunction.GetY(System.Single)">
+            <summary>
+            Получить значение Y при заданном значении X
+            </summary>
+            <param name="X">Значение X</param>
+        </member>
+        <member name="M:CoordinateSystem.Program.Main">
+            <summary>
+            The main entry pt for the application.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.Form1">
+            <summary>
+            Основная форма проекта
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CoordinateSystem.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.Form1.separator">
+            <summary>
+            Текущий десятичный разделитель
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.Form1.#ctor">
+            <summary>
+            Конструктор по умолчанию
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TTests">
+            <summary>
+            Класс, содержащий методы разнообразных проверок.
+            Пересечения фигур, проверки расстояний, другие математические операции.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TLineStraight,CoordinateSystem.TLineStraight,System.Drawing.PointF@)">
+            <summary>
+            Проверка, пересекает ли одна прямая другую
+            </summary>
+            <param name="line1">Целевая прямая</param>
+            <param name="line2">Целевая прямая</param>
+            <param name="cp">Сюда будет возвращена точка пересечения.
+            Если там будет бесконечность - прямые параллельны (не подтверждено).
+            Если {NaN; NaN} - прямые совпадают (не подтверждено).</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TSegment,CoordinateSystem.TLineStraight,System.Drawing.PointF@)">
+             <summary>
+             Пересекаются ли отрезок и прямая
+             </summary>
+             <param name="segment">Целевой отрезок</param>
+             <param name="line">Целевая прямая</param>
+             <param name="cp">Сюда будет возвращена точка пересечения.
+             Если отрезок не пересекает прямую, тут будет точка пересечения прямой с продолжением отрезка.
+             Если там будет бесконечность - отрезок параллелен прямой (не подтверждено).
+             Если {NaN; NaN} - отрезок лежит на прямой (не подтверждено).
+            </param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TSegment,CoordinateSystem.TSegment,System.Drawing.PointF@)">
+             <summary>
+             Пересекает ли этот отрезок другой отрезок.
+             </summary>
+             <param name="segment1">Целевой отрезок</param>
+             <param name="segment2">Целевой отрезок</param>
+             <param name="cp">Сюда будет возвращена точка пересечения.
+             Если отрезки не пересекаются, тут будет точка пересечения прямой с продолжением отрезка.
+             Если там будет бесконечность - отрезки параллельны (не подтверждено).
+             Если {NaN; NaN} - отрезки совпадают более, чем в одной точке (не подтверждено).
+            </param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TRay,CoordinateSystem.TSegment,System.Drawing.PointF@)">
+            <summary>
+            Пересекается ли луч с отрезком
+            </summary>
+            <param name="ray">Проверяемый луч</param>
+            <param name="segment">Проверяемый отрезок</param>
+            <param name="cp">
+            Сюда будет возвращена точка пересечения.
+            Если луч не пересекает прямую, тут будет точка пересечения прямой с продолжением луча.
+            Если там будет бесконечность - луч параллелен прямой (не подтверждено).
+            Если {NaN; NaN} - луч лежит на прямой (не подтверждено).
+            </param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TRay,CoordinateSystem.TLineStraight,System.Drawing.PointF@)">
+            <summary>
+            Пересекается ли луч с прямой
+            </summary>
+            <param name="line">Проверяемая прямая</param>
+            <param name="ray">Проверяемый луч</param>
+            <param name="cp">
+            Сюда будет возвращена точка пересечения.
+            Если луч не пересекает прямую, тут будет точка пересечения прямой с продолжением луча.
+            Если там будет бесконечность - луч параллелен прямой (не подтверждено).
+            Если {NaN; NaN} - луч лежит на прямой (не подтверждено).
+            </param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TCircle,CoordinateSystem.TLineStraight,System.Drawing.PointF[]@)">
+            <summary>
+            Пересекает-ли окружность заданную прямую
+            </summary>
+            <param name="circle">Целевая окружность</param>
+            <param name="line">Целевая прямая</param>
+            <param name="cp">Сюда будет возвращена точка или точки пересечения.</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.IsCrossing(CoordinateSystem.TCircle,CoordinateSystem.TRay,System.Drawing.PointF[]@)">
+            <summary>
+            Пересекает-ли окружность заданный луч
+            </summary>
+            <param name="circle">Целевая окружность</param>
+            <param name="ray">Целевой луч</param>
+            <param name="cp">Сюда будет возвращена точка или точки пересечения.</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.GetCrosspoints(CoordinateSystem.TLineCracked,CoordinateSystem.TRay)">
+            <summary>
+            Получить все точки пересечения ломаной с лучём
+            </summary>
+            <param name="cracked">Проверяемая ломаная</param>
+            <param name="ray">Проверяемый луч</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.GetCrosspoints(CoordinateSystem.TPolygon,CoordinateSystem.TRay)">
+            <summary>
+            Получить все точки пересечения полигона с лучём
+            </summary>
+            <param name="ray">Целевой луч</param>
+            <param name="polygon"></param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.GetCrosspoints(CoordinateSystem.TCircle,CoordinateSystem.TSegment)">
+            <summary>
+            Получить все точки пересечения окружности с отрезком
+            </summary>
+            <param name="circle">Целевая окружность</param>
+            <param name="segment">Целевой отрезок</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.GetCrosspoints(CoordinateSystem.TCircle,CoordinateSystem.TPolygon)">
+            <summary>
+            Получить все точки пересечения окружности с полигоном
+            </summary>
+            <param name="circle">Целевая окружность</param>
+            <param name="polygon">Целевой полигон</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.GetDistance(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            Получить расстояние между двумя точками
+            </summary>
+            <param name="pt1">Первая точка</param>
+            <param name="pt2">Вторая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.NOD(System.Single,System.Single)">
+            <summary>
+            Найти наибольший общий делитель двух чисел
+            </summary>
+            <param name="f1">Первое число</param>
+            <param name="f2">Второе число</param>
+        </member>
+        <member name="M:CoordinateSystem.TTests.NOK(System.Single,System.Single)">
+            <summary>
+            Найти наименьшее общее кратное двух чисел
+            </summary>
+            <param name="f1">Первое число</param>
+            <param name="f2">Второе число</param>
+        </member>
+        <member name="T:CoordinateSystem.TCoordinateSystemDecart">
+            <summary>
+            Предоставляет услуги преобразования точки на объекте графики в точку на системе координат
+            и обратно. Также отрисовывает саму систему координат.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.height">
+            <summary>
+            Высота поля графика
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.width">
+            <summary>
+            Ширина поля графика
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.top">
+            <summary>
+            Расстояние от поля графика до верхней границы поля рисования
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.left">
+            <summary>
+            Расстояние от поля грфика до левой границы поля рисования.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.min">
+            <summary>
+            Нижние показываемые границы значений переменных на графике
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.max">
+            <summary>
+            Верхние показываемые границы значений переменных на графике
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.autoscale">
+            <summary>
+            Флаг автовыбора размера поля графика
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TCoordinateSystemDecart.figures">
+            <summary>
+            Коллекция фигур, которые будут отображены на графике.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.#ctor">
+            <summary>
+            Создать пустую систему координат с параметрами по-умолчанию.
+            Автовыбор границ отображаемых занчений включен.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Создать пустую систему координат с заданными размером и положением.
+            Автовыбор границ отображаемых занчений отключен.
+            </summary>
+            <param name="height">Высота результирующего изображения в пикселях</param>
+            <param name="width">Ширина результирующего изображения в пикселях</param>
+            <param name="top">Расстояние от границ поля графика до верхней границы
+            целевого объекта графики в пикселях</param>
+            <param name="left">Расстояние от границ поля графика до левой границы
+            целевого объекта графики в пикселях</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.DrawAxis(System.Drawing.Graphics)">
+            <summary>
+            Отрисовать на объекте графики саму систему координат.
+            </summary>
+            <param name="g">Целевой объект графики.</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.DrawFigures(System.Drawing.Graphics)">
+            <summary>
+            Отрисовать все фигуры на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.GetPointOnGraphicsObject(System.Drawing.PointF)">
+            <summary>
+            Получить точку на графическом объекте из точки в системе координат
+            </summary>
+            <param name="pt">Точка в этой системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.GetPointsOnGraphicsObject(System.Drawing.PointF[])">
+            <summary>
+            Получить массив точек на графическом объекте из массива точек в системе координат
+            </summary>
+            <param name="ptArray">Точки в этой системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.GetPointCoordinates(System.Drawing.Point)">
+            <summary>
+            Получить точку в системе координат из точки на графическом объекте
+            </summary>
+            <param name="pt">Точка на графическом объекте</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.GetPointsCoordinates(System.Drawing.Point[])">
+            <summary>
+            Получить массив точек в системе координат из массива точек на графическом объекте
+            </summary>
+            <param name="ptArray">Точки на графическом объекте</param>
+        </member>
+        <member name="M:CoordinateSystem.TCoordinateSystemDecart.IsInside(System.Drawing.PointF)">
+            <summary>
+            Проверить, вмещается-ли объект в видимое поле системы координат.
+            </summary>
+            <param name="point">Проверяемая точка</param>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Height">
+            <summary>
+            Высота поля графика
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Width">
+            <summary>
+            Ширина поля графика
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Top">
+            <summary>
+            Расстояние от поля графика до верхней границы поля рисования
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Left">
+            <summary>
+            Расстояние от поля грфика до левой границы поля рисования.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.One">
+            <summary>
+            Получить "цену" одной единицы на графике в пикселях.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Min">
+            <summary>
+            Нижние показываемые границы значений переменных на графике.. Если свойство Autoscale == true, этот параметр расчитывается автоматически.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Max">
+            <summary>
+            Верхние показываемые границы значений переменных на графике. Если свойство Autoscale == true, этот параметр расчитывается автоматически.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Autoscale">
+            <summary>
+            Если true, верхние и нижние показываемые границы значений переменных
+            будут определяться автоматически по тем фигурам, что размещены на графике.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Figures">
+            <summary>
+            Коллекция фигур, которые будут отображены на графике.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TCoordinateSystemDecart.Zero">
+            <summary>
+            Получить точку на объекте графики, в которой находится начало координат.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TLineStraight">
+            <summary>
+            Модель прямой линии, заданной формулой a*x + b*y = c.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineStraight.a">
+            <summary>
+            Множитель для X в формуле прямой
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineStraight.b">
+            <summary>
+            Множитель для Y в формуле прямой
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineStraight.c">
+            <summary>
+            Свободный коэфициент в формуле прямой
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineStraight.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineStraight.simplify">
+            <summary>
+            Будет-ли происходить упрощение уравнения прямой при создании и изменении коэфициентов.
+            Упростить возможно только целочисленные коэфициенты, но алгоритм отработает с любыми.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.#ctor(CoordinateSystem.TSegment)">
+            <summary>
+            Провести прямую через отрезок
+            </summary>
+            <param name="segment">Исходный отрезок</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.#ctor(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            Провести прямую через 2 точки
+            </summary>
+            <param name="pt1">Первая точка</param>
+            <param name="pt2">Вторая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.#ctor(CoordinateSystem.TRay)">
+            <summary>
+            Провести прямую через луч
+            </summary>
+            <param name="ray">Целево луч</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Провести прямую через 2 точки
+            </summary>
+            <param name="x1">Координата X первой точки</param>
+            <param name="y1">Координата Y первой точки</param>
+            <param name="x2">Координата X второй точки</param>
+            <param name="y2">Координата Y второй точки</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            Создать прямую с заданными коэфициентами
+            </summary>
+            <param name="a">Коэфициент при X</param>
+            <param name="b">Коэфициент при Y</param>
+            <param name="c">Свободный коэфициент</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.GetY(System.Single)">
+            <summary>
+            Получить значение Y при заданном значении X
+            </summary>
+            <param name="X">Значение X</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.GetX(System.Single)">
+            <summary>
+            Получить значение X при заданном значении Y
+            </summary>
+            <param name="Y">Значение Y</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.GetPerpendicular(System.Drawing.PointF)">
+            <summary>
+            Провести перпендикуляр к этой прямой через заданную точку.
+            </summary>
+            <param name="point">Заданная точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.ToString">
+            <summary>
+            Представить фигуру в виде текстового описания
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TLineStraight.Simplify">
+            <summary>
+            Упростить уравнение, приведя коэфициенты к виду, когда у них нет общих делителей,
+            кроме единицы, а первый ненулевой >= 0
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.A">
+            <summary>
+            Множитель для X в формуле прямой
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.B">
+            <summary>
+            Множитель для Y в формуле прямой
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.C">
+            <summary>
+            Свободный коэфициент в формуле прямой
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.Min">
+            <summary>
+            Минимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineStraight.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TConstants">
+            <summary>
+            Содержит некоторые константы. Хотя... Фактически их можно поменять во время выполнения программы.
+            Так что это - настройки.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TConstants.epsilon">
+            <summary>
+            Если координаты отличаются не более, чем на эту величину, считать их равными.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TConstants.IsEqualFloat(System.Single,System.Single)">
+            <summary>
+            Сравнение чисел с плавающей точкой с учётом возможной погрешности вычислений
+            </summary>
+            <param name="number1">Первое из чисел</param>
+            <param name="number2">Второе из чисел</param>
+        </member>
+        <member name="M:CoordinateSystem.TConstants.IsEqualPointF(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            Сравнение точек с координатами типа float с учётом возможной погрешности вычислений
+            </summary>
+            <param name="pt1">Первая точка</param>
+            <param name="pt2">Вторая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TConstants.IsEqualPointF(System.Drawing.PointF,System.Drawing.PointF,System.Single)">
+            <summary>
+            Проверяет, можно ли считать указанные точки одной точкой, с указанным допуском.
+            Применяется для завершения полигона кликом.
+            </summary>
+            <param name="pt1">Точка</param>
+            <param name="pt2">Точка</param>
+            <param name="epsilon">Допуск в единицах системы координат</param>
+        </member>
+        <member name="T:CoordinateSystem.TCoveringAlgorithm">
+            <summary>
+            Этот класс содержит алгоритмы покрытия одних фигур другими
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TCoveringAlgorithm.Triangles(CoordinateSystem.TPolygon,CoordinateSystem.TCircle,System.Single,CoordinateSystem.TPolygon[])">
+            <summary>
+            Покрыть заданный полигон кругами, с центрами в вершинах равносторонних треугольников.
+            </summary>
+            <param name="sample">Образец круга</param>
+            <param name="target">Целевой полигон</param>
+            <param name="coef">Коэфициент наложения. Отношение радиуса окружности к стороне треугольника.</param>
+            <param name="forbidden">Зоны, не нуждающиеся в покрытии</param>
+        </member>
+        <member name="T:CoordinateSystem.TPolygon">
+            <summary>
+            Фигура - замкнутый многоугольник, заданый массивом точек, соединённых линией в порядке следования.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TPolygon.brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TPolygon.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TPolygon.points">
+            <summary>
+            Список вершин полигона, соединённых рёбрами последовательно.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.#ctor">
+            <summary>
+            Создать "пустой" полигон. Без единой вершины.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.#ctor(System.Drawing.PointF,System.Drawing.PointF[])">
+            <summary>
+            Создать полигон из произвольного количества точек. Повторяющиеся подряд точки будут отброшены.
+            </summary>
+            <param name="pt1">Первая и обязательная для указания точка</param>
+            <param name="points">Массив точек. При вызове функции его можно не указывать</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.#ctor(System.Single,System.Single,System.Single[])">
+            <summary>
+            Создать полигон из произвольного количества точек.
+            </summary>
+            <param name="xy">Координаты точек в порядке: x2, y2, x3, y3...</param>
+            <param name="x1">Координата первой точки</param>
+            <param name="y1">Координата первой точки</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.#ctor(System.Collections.Generic.List{System.Drawing.PointF})">
+            <summary>
+            Создать полигон из списка точек
+            </summary>
+            <param name="points">Список точек</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.#ctor(CoordinateSystem.TLineCracked)">
+            <summary>
+            Создать полигон, замкнув концы ломаной линии
+            </summary>
+            <param name="src"></param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.PointIsInside(System.Drawing.PointF)">
+            <summary>
+            Определяет, находится ли точка внутри данной фигуры. Точка на границе фигуры тоже считается.
+            </summary>
+            <param name="pt">Точка в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TPolygon.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Points">
+            <summary>
+            Список вершин полигона, соединённых рёбрами последовательно.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Min">
+            <summary>
+            Получить минимальные значений переменных в данной фигуре.
+            Рекомендуется буферизовать полученное значение перед активным использованием
+            для ускорения работы.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре.
+            Рекомендуется буферизовать полученное значение перед активным использованием
+            для ускорения работы.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TPolygon.Segments">
+            <summary>
+            Получить массив отрезков-граней, из которых состоит полигон.
+            Для экономии времени выполнения, рекомендуется буферизовать
+            полученный массив перед активным его использованием,
+            поскольку он каждый раз создаётся заново.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TDot">
+            <summary>
+            Точка в системе координат. Задаётся своими координатами и параметрами отрисовки.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TDot.size">
+            <summary>
+            Диаметр отображаемой точки в пикселях
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TDot.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TDot.brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TDot.point">
+            <summary>
+            Собственно позиция точки в системе координат
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TDot.#ctor">
+            <summary>
+            Создать точку с параметрами по-умолчанию
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TDot.#ctor(System.Drawing.PointF)">
+            <summary>
+            Создать объект на основе точки с float-координатами
+            </summary>
+            <param name="point">Точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TDot.#ctor(System.Single,System.Single)">
+            <summary>
+            Создать объект на основе float-координат
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TDot.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TDot.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TDot.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TDot.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="P:CoordinateSystem.TDot.Brush">
+            <summary>
+            Кисть для заливки фигуры.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TDot.Diameter">
+            <summary>
+            Диаметр отображаемой точки в пикселях
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TDot.Min">
+            <summary>
+            Минимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TDot.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TDot.Pen">
+            <summary>
+            Перо для отрисовки линий фигуры
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TLineCracked">
+            <summary>
+            Модель ломаной линии, заданной набором точек-вершин.
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineCracked.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TLineCracked.points">
+            <summary>
+            Список вершин ломаной, соединённых рёбрами последовательно.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.#ctor">
+            <summary>
+            Создать "пустую" ломаную. Без единой вершины.
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.#ctor(System.Drawing.PointF,System.Drawing.PointF[])">
+            <summary>
+            Создать ломаную из произвольного количества точек. Повторяющиеся подряд точки будут отброшены.
+            </summary>
+            <param name="points">Массив точек</param>
+            <param name="pt1">Первая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.#ctor(System.Single,System.Single,System.Single[])">
+            <summary>
+            Создать ломаную из произвольного количества точек.
+            </summary>
+            <param name="xy">Координаты точек в порядке: x1, y1, x2, y2...</param>
+            <param name="x1">Координата первой точки</param>
+            <param name="y1">Координата первой точки</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка линиям данной фигуры
+            </summary>
+            <param name="pt">Проверяемая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TLineCracked.GetPointsArray">
+            <summary>
+            Получить массив точек-углов ломаной
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineCracked.Points">
+            <summary>
+            Список вершин ломаной, соединённых рёбрами последовательно.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineCracked.Min">
+            <summary>
+            Получить минимальные значений переменных в данной фигуре.
+            Рекомендуется буферизовать полученное значение перед активным использованием
+            для ускорения работы.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineCracked.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре.
+            Рекомендуется буферизовать полученное значение перед активным использованием
+            для ускорения работы.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineCracked.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TLineCracked.Segments">
+            <summary>
+            Получить массив отрезков-граней, из которых состоит ломаная.
+            Для экономии времени выполнения, рекомендуется буферизовать
+            полученный массив перед активным его использованием,
+            поскольку он каждый раз создаётся заново.
+            </summary>
+        </member>
+        <member name="T:CoordinateSystem.TRay">
+            <summary>
+            Модель луча, заданного начальной точкой, уравнением прямой и направлением по переменным X и Y
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TRay.begin">
+            <summary>
+            Начальная точка луча
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TRay.vector">
+            <summary>
+            Вектор направления луча
+            </summary>
+        </member>
+        <member name="F:CoordinateSystem.TRay.pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+        <member name="M:CoordinateSystem.TRay.#ctor(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            Создать луч с началом в заданной точке
+            </summary>
+            <param name="begin">Начальная точка</param>
+            <param name="vector">Вектор направления</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.#ctor(System.Drawing.PointF,CoordinateSystem.TLineStraight)">
+            <summary>
+            Создать луч с началом в заданной точке, параллельный заданной прямой
+            </summary>
+            <param name="begin">Начальная точка</param>
+            <param name="line">Направляющая прямая</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.IsPointInSameSector(System.Drawing.PointF)">
+            <summary>
+            Проверить, лежит ли заданная точка в одном "сегменте" с лучом,
+            если через начало луча провести линии, параллельные осям координат.
+            </summary>
+            <param name="pt">Целевая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.Draw(System.Drawing.Graphics,CoordinateSystem.TCoordinateSystemDecart)">
+            <summary>
+            Отрисовать фигуру на объекте графики
+            </summary>
+            <param name="g">Целевой объект графики</param>
+            <param name="cs">Система координат, в которой находится фигура</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.PointIsOnFigure(System.Drawing.PointF)">
+            <summary>
+            Проверяем, принадлежит ли точка данному лучу.
+            </summary>
+            <param name="pt">Целевая точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.GetDistance(System.Drawing.PointF)">
+            <summary>
+            Получить расстояние от заданной точки до границы данной фигуры
+            </summary>
+            <param name="pt">Целевая точка, заданная в системе координат</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.GetNearestPoint(System.Drawing.PointF)">
+            <summary>
+            Получить точку на фигуре, ближайшую к заданной.
+            </summary>
+            <param name="pt">Заданная точка</param>
+        </member>
+        <member name="M:CoordinateSystem.TRay.ToString">
+            <summary>
+            Представить фигуру в виде текстового описания
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TRay.Begin">
+            <summary>
+            Получить или задать начальную точку луча
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TRay.Vector">
+            <summary>
+            Получить или задать вектор направления луча
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TRay.Min">
+            <summary>
+            Минимальные значений переменных в данной фигуре.
+            Для ускорения работы рекомендуется буферизовать это значение на время
+            активного использования.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TRay.Max">
+            <summary>
+            Максимальные значений переменных в данной фигуре.
+            Для ускорения работы рекомендуется буферизовать это значение на время
+            активного использования.
+            </summary>
+        </member>
+        <member name="P:CoordinateSystem.TRay.Pen">
+            <summary>
+            Перо для отрисовки линии
+            </summary>
+        </member>
+    </members>
+</doc>

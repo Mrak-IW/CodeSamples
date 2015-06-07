@@ -1,0 +1,25 @@
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Form1.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.csproj.GenerateResource.Cache
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.exe
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.pdb
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\ResolveAssemblyReference.cache
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Form1.resources
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Properties.Resources.resources
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.csproj.GenerateResource.Cache
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.exe
+D:\Документы\Mrak\Documents\_Документы\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Properties.Resources.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Form1.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.Properties.Resources.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\obj\Debug\CoordinateSystem.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Тестовый полигон\TestProject\TestProject\bin\Debug\CoordinateSystem.XML

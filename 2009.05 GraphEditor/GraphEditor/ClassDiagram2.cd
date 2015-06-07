@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphEditor.FRM_Main" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QZgAABAFQegRLhwVwhDAknkiHFkAUigBEEYAgIKAACE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.FRM_About" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIACAAgAACAACAUAAACAAAATAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>FRM_About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TFRM_Settings" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAGAiAAAA0AAFGAAAACAAQBAASEAAEAEICAACA=</HashCode>
+      <FileName>FRM_Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.Program" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TAnRec" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAEIAAAAAAQAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>TAnRec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TBow" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAoBAAAAAAAAAIAgBACAAEQAAABAAAAA=</HashCode>
+      <FileName>TBow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeRegular">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBEGAAgQFAAAACQiCAAAQAgCAAAAIA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeOR">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeXOR">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeAND">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeMIN">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TFRM_Analyse" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAACAACBBCAACQwIACAgQAIAAAAAAAQAAAAoE=</HashCode>
+      <FileName>TFRM_Analyse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TGraph" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAJgBkAAAiQASAEAAEQSqAAAAgAGAAgREiAAEBA=</HashCode>
+      <FileName>TGraph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.Properties.Resources" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAEAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.Properties.Settings" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphEditor.TEdgeSUM" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>TEdges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GraphEditor.EdgeTypes" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAEAhIAAAAAAAAAAAAABA=</HashCode>
+      <FileName>EdgeTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GraphEditor.BowTypes" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TBow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GraphEditor.MessagesString">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessagesString.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeDivision.Form1" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8QBQA6QZAiADgFCAIAKgYAAKAYEkeSAUgFQEGwEAFwk=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.Program" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.Properties.Resources" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.Properties.Settings" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix.TMatrix" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAmIAggAGAACAAEaAVAAEACwBAAQAAAAAAAGgAAAIE=</HashCode>
+      <FileName>TMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NSGraphic.TGraphic" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MRAAAQQACAAAQAEiAAANIAgAMAAIA7BsGACAYDKAASA=</HashCode>
+      <FileName>TGraphic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.TQueue">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAEAAAgAAAAAECAAAAABACACAAAAAAAAAAAEACAA=</HashCode>
+      <FileName>TQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.TEncoder">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgABAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TEncoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.TDecoder">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAQQAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>TDecoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeDivision.TTestMethods">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TTestMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

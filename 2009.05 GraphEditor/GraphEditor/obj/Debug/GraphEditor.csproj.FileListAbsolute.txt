@@ -1,0 +1,54 @@
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.exe
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.pdb
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Properties.Resources.resources
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.csproj.GenerateResource.Cache
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\ResolveAssemblyReference.cache
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Form1.resources
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Properties.Resources.resources
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.csproj.GenerateResource.Cache
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.exe
+D:\_Den_Temporary\_Курсовик_Verve\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.pdb
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_Main.resources
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Settings.resources
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_About.resources
+E:\@Мрак\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Analyse.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.exe
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\bin\Debug\GraphEditor.pdb
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_Main.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_About.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Settings.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Properties.Resources.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Analyse.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_Verve_C#\GraphEditor\GraphEditor\obj\Debug\GraphEditor.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_Main.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_About.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Settings.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Properties.Resources.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Analyse.resources
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\bin\Debug\GraphEditor.exe
+E:\@Мрак\Институт\_Курсовик 2.2\Курсовик_C#(Улучшаемая версия)\GraphEditor\GraphEditor\bin\Debug\GraphEditor.pdb
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb
+H:\Институт\Лабы\GraphEditor\GraphEditor\bin\Debug\GraphEditor.exe
+H:\Институт\Лабы\GraphEditor\GraphEditor\bin\Debug\GraphEditor.pdb
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\ResolveAssemblyReference.cache
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_Main.resources
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.FRM_About.resources
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Settings.resources
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.Properties.Resources.resources
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.TFRM_Analyse.resources
+H:\Институт\Лабы\GraphEditor\GraphEditor\obj\Debug\GraphEditor.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Курсовик\_Курсовик 2.2\Курсовик_C#(Последня яверсия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.exe
+E:\@Мрак\Институт\Курсовик\_Курсовик 2.2\Курсовик_C#(Последня яверсия)\GraphEditor\GraphEditor\obj\Debug\GraphEditor.pdb

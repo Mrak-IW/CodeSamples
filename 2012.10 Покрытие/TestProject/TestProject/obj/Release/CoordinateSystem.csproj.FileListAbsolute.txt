@@ -1,0 +1,8 @@
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Release\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\bin\Release\CoordinateSystem.pdb
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\CoordinateSystem.Form1.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\CoordinateSystem.Properties.Resources.resources
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\CoordinateSystem.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\CoordinateSystem.exe
+E:\@Мрак\Институт\Диплом_магистр\_Программа\Рабочая версия\Тестовый полигон\TestProject\TestProject\obj\Release\CoordinateSystem.pdb

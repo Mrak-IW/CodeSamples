@@ -1,0 +1,18 @@
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.Form1.resources
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.Properties.Resources.resources
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\bin\Debug\TestProgram.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\bin\Debug\TestProgram.pdb
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.pdb
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.exe
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.pdb
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\bin\Debug\TestProgram.exe
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\bin\Debug\TestProgram.pdb
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.Form1.resources
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.Properties.Resources.resources
+H:\_Институт\_labs\Семестр 4.2\Диплом\TestProgram\TestProgram\obj\Debug\TestProgram.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.exe
+E:\@Мрак\Институт\_Labs\Семестр 4.2\Диплом\Кодовое разделение\TestProgram\obj\Debug\TestProgram.pdb

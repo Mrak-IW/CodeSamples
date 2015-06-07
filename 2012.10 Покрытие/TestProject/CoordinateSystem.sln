@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateSystem", "TestProject\CoordinateSystem.csproj", "{5BA2B027-0923-4164-B475-15C1651F4340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordinateSystemUnitTest", "CoordinateSystemUnitTest\CoordinateSystemUnitTest.csproj", "{7D7F2E7A-C3EA-4AED-BEDE-D88BA904B765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FBF571E-BE93-4E1C-B007-6E37696C95E6}"
+	ProjectSection(SolutionItems) = preProject
+		CoordinateSystem.vsmdi = CoordinateSystem.vsmdi
+		CoordinateSystem1.vsmdi = CoordinateSystem1.vsmdi
+		CoordinateSystem2.vsmdi = CoordinateSystem2.vsmdi
+		CoordinateSystem3.vsmdi = CoordinateSystem3.vsmdi
+		CoordinateSystem4.vsmdi = CoordinateSystem4.vsmdi
+		CoordinateSystem5.vsmdi = CoordinateSystem5.vsmdi
+		CoordinateSystem6.vsmdi = CoordinateSystem6.vsmdi
+		CoordinateSystem7.vsmdi = CoordinateSystem7.vsmdi
+		CoordinateSystem8.vsmdi = CoordinateSystem8.vsmdi
+		CoordinateSystem9.vsmdi = CoordinateSystem9.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CoordinateSystem9.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA2B027-0923-4164-B475-15C1651F4340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA2B027-0923-4164-B475-15C1651F4340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA2B027-0923-4164-B475-15C1651F4340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA2B027-0923-4164-B475-15C1651F4340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7F2E7A-C3EA-4AED-BEDE-D88BA904B765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7F2E7A-C3EA-4AED-BEDE-D88BA904B765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7F2E7A-C3EA-4AED-BEDE-D88BA904B765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7F2E7A-C3EA-4AED-BEDE-D88BA904B765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MarkovChain.Form1" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgEIABKACIQIIgAAoCIigiSAASVFAChCMUgBIEhACA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.FRM_GenerateSettings" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAQACBAAQBAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FRM_GenerateSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.FRM_Epur" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYBUIAiABUBhAEICACVAqIAEIIAAIAGAANBgAARg=</HashCode>
+      <FileName>FRM_Ipur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.FRM_Settings" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEADAAAARAAACAAIACIAAACAAAAAAAEAEBAAA=</HashCode>
+      <FileName>FRM_Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.Program" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.TEffect" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>TEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.TRandomVar" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAACAAAAAAAAAAAAAAABEAgAAAAAAAAA=</HashCode>
+      <FileName>TEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.Properties.Resources" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarkovChain.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NSGraphic.TGraphic" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MRAAAQQACAAAQAEiAAANIAgAMAAIA7BsGACAYDKAASA=</HashCode>
+      <FileName>TGraphic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix.TMarkovChain" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAGAABAMAABACAAAAAAAAAAAAIACAAAAAA=</HashCode>
+      <FileName>TMarkovChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix.TMatrix" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAmIAggAGAACAAEaAVAAEACwBAAQAAAAAAAGgAAAAE=</HashCode>
+      <FileName>TMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix.THalfMarkovProcess">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TMarkovChain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MarkovChain.EffectType" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TEffect.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

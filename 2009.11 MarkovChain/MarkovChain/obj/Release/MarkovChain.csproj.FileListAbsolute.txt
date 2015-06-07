@@ -1,0 +1,8 @@
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\MarkovChain.Form1.resources
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\MarkovChain.Properties.Resources.resources
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\MarkovChain.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\bin\Release\MarkovChain.exe
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\bin\Release\MarkovChain.pdb
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\MarkovChain.exe
+E:\@Мрак\Институт\_Labs\Семестр 3.1\Компьютерные системы(home)\MarkovChain\MarkovChain\obj\Release\MarkovChain.pdb
