@@ -1,0 +1,64 @@
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\bin\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\bin\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.pdb
+u:\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.exe
+u:\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.pdb
+u:\Системное ПО\Lab2\Lab2\bin\Debug\Lab2.exe
+u:\Системное ПО\Lab2\Lab2\bin\Debug\Lab2.pdb
+u:\Системное ПО\Lab2\Lab2\obj\Debug\ResolveAssemblyReference.cache
+u:\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+u:\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+u:\Системное ПО\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+u:\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+D:\Labs\Системное ПО\Lab3_Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+E:\@Мрак\Институт\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+E:\@Мрак\Институт\Системное ПО (Home)\Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.exe
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.pdb
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\bin\Debug\Lab2.exe
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\bin\Debug\Lab2.pdb
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\ResolveAssemblyReference.cache
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.Form1.resources
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+E:\Институт\Labs\Системное ПО\Взаимоисключение\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
